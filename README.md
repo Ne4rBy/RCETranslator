@@ -26,21 +26,18 @@ A simple Bash script designed for the exploitation phase of the **TryHackMe U.A 
 ### Example
 
 ```bash
-$ ./rce-translator.sh
-  ____  ____ _____   ____      _            _   _             
- |  _ \|  _ \_ _\ \ / /\ \    / \   _ __ __| | | | ___  _ __  
- | |_) | | | | | \ V /  \ \  / _ \ | '__/ _` | | |/ _ \| '_ \ 
- |  _ <| |_| | |  | |    \ \/ / \ \| | | (_| | | | (_) | | | |
- |_| \_\____/___| |_|     \_/_/ \_\_|  \__,_| |_|\___/|_| |_|
- 
- Created by: Samuel Laveau (aka Ne4rby)
+❯ ./RCETranslator.sh
+    ____  ____________   ______                      __      __            
+   / __ \/ ____/ ____/  /_  __/________ _____  _____/ /___ _/ /_____  _____
+  / /_/ / /   / __/      / / / ___/ __ `/ __ \/ ___/ / __ `/ __/ __ \/ ___/
+ / _, _/ /___/ /___     / / / /  / /_/ / / / (__  ) / /_/ / /_/ /_/ / /    
+/_/ |_|\____/_____/    /_/ /_/   \__,_/_/ /_/____/_/\__,_/\__/\____/_/     
+                                                                           
+Created by: Samuel Laveau (aka Ne4rby)
 
-CMD-> ls
-file1.txt
-file2.txt
-script.sh
-
-CMD-> exit
+CMD-> id
+uid=33(www-data) gid=33(www-data) groups=33(www-data)
+CMD-> quit
 [!] Exiting...
 ```
 
